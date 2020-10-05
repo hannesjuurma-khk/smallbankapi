@@ -51,7 +51,7 @@ router.post('/', async (req, res) => {
 
   // Save session as a cookie
   res.cookie('authorization', token, {
-    httpOnly: false,
+    httpOnly: true,
     sameSite: 'none',
     secure: true
   });
