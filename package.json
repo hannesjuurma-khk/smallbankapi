@@ -5,6 +5,7 @@
   "main": "./server/index.js",
   "scripts": {
     "start": "nodemon ./server/index.js"
+    "start-client": "nodemon ./client/react-scripts start"
   },
   "repository": {
     "type": "git",
